@@ -1,0 +1,10 @@
+# Mistakes and Fixes — Windows Security Hardening
+
+Issue: Real-time protection was turned off.
+Fix: Re-enabled it in Windows Security under Virus & threat protection.
+
+Issue: Firewall was turned off for one network profile.
+Fix: Turned firewall back on for all profiles (Domain, Private, Public).
+
+Issue: System was missing important updates.
+Fix: Installed all pending Windows Updates and restarted the machine.
