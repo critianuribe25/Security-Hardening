@@ -41,3 +41,18 @@ This project focuses on applying basic **security hardening** steps to a Windows
 - How to apply core Windows security best practices  
 - Why firewalls, updates, and user permissions matter  
 - How endpoint security fits into overall IT and cloud security  
+
+---
+
+## 🛠 Skills Demonstrated
+- Windows Security tools
+- Firewall configuration
+- Virus & Threat Protection
+- User Account Control (UAC)
+- Update management
+- Endpoint security basics
+
+---
+
+**Status:** In Progress  
+**Expected Completion:** December 23, 2025
