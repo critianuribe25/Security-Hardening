@@ -12,15 +12,15 @@ The goal is to reduce attack surface, increase protection against ransomware, an
 Firewall ensures unauthorized incoming/outgoing traffic is blocked unless explicitly allowed.
 
 📸 **Screenshot:**  
-`/screenshots/firewall_home.png`
+![Firewall Home](./screenshots/firewall_home.png)
 
 ---
 
 ### ✔️ 2. Created a Custom Firewall Rule
-I created a custom outbound rule named **my_super_cool_rule** using Windows Defender Firewall with Advanced Security.
+A custom outbound rule named **my_super_cool_rule** was created using Windows Defender Firewall with Advanced Security.
 
 📸 **Screenshot:**  
-`/screenshots/firewall_rule.png`
+![Custom Firewall Rule](./screenshots/firewall_custom_rule.png)
 
 **Why This Matters:**  
 Custom rules control how specific applications communicate with the network, reducing risk from unauthorized apps or malware.
@@ -31,7 +31,7 @@ Custom rules control how specific applications communicate with the network, red
 Real-time protection, cloud-delivered protection, and automatic sample submission were verified as enabled.
 
 📸 **Screenshot:**  
-`/screenshots/defender_overview.png`
+![Windows Defender Overview](./screenshots/defender_overview.png)
 
 **Why This Matters:**  
 Ensures malware is detected and blocked in real time.
@@ -39,10 +39,10 @@ Ensures malware is detected and blocked in real time.
 ---
 
 ### ✔️ 4. Enabled Ransomware Protection (Controlled Folder Access)
-Turned on Controlled Folder Access to protect Documents, Desktop, Pictures, and other personal folders from unauthorized changes.
+Controlled Folder Access was enabled to protect key directories such as Documents, Desktop, Pictures, and other personal folders.
 
 📸 **Screenshot:**  
-`/screenshots/ransomware_protection.png`
+![Ransomware Protection](./screenshots/ransomware_protection.png)
 
 **Why This Matters:**  
 Prevents ransomware from encrypting or deleting important data.
@@ -50,13 +50,13 @@ Prevents ransomware from encrypting or deleting important data.
 ---
 
 ### ✔️ 5. Disabled Unnecessary Startup Apps
-Reviewed and disabled unnecessary applications that start up with Windows to improve performance and reduce background vulnerabilities.
+Reviewed and disabled unnecessary applications that start up with Windows to improve performance and reduce risk.
 
 📸 **Screenshot:**  
-`/screenshots/startup_apps.png`
+![Startup Apps](./screenshots/startup_apps.png)
 
 **Why This Matters:**  
-Fewer startup apps = faster boot times and fewer vectors for malware or unwanted services.
+Fewer startup apps = faster boot times and fewer background vulnerabilities.
 
 ---
 
@@ -73,12 +73,11 @@ Fewer startup apps = faster boot times and fewer vectors for malware or unwanted
 ---
 
 ## 🧠 Lessons Learned
-
-- How Windows Firewall filters incoming and outgoing network traffic  
-- How custom firewall rules can restrict or allow specific applications  
-- How Controlled Folder Access blocks ransomware attempts  
-- The importance of real-time antivirus protection  
-- How reducing startup apps improves security and performance  
+- How Windows Firewall filters incoming and outgoing traffic  
+- Importance of custom firewall rules for granular control  
+- How Controlled Folder Access blocks ransomware attacks  
+- The role of real-time antivirus monitoring  
+- Why minimizing startup apps improves security and performance  
 
 ---
 
@@ -86,11 +85,11 @@ Fewer startup apps = faster boot times and fewer vectors for malware or unwanted
 - Windows Security  
 - Windows Defender Firewall (Advanced Settings)  
 - Task Manager  
-- Local System Settings  
+- Windows 11 System Settings  
 
 ---
 
 ## ✅ Status
 ✔️ Completed and documented  
 ✔️ Screenshots included  
-✔️ Ready for recruiters and portfolio reviews  
+✔️ Recruiter-ready  
